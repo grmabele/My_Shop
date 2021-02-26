@@ -1,0 +1,19 @@
+
+img {
+    display: block;
+    position: inherit;
+    height: 200px;
+}
+
+#card_thumbnail{
+    width: 70%;
+    align-self: center;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+}
+
+.card-title { padding: 4px; margin:1px;}
+
+.card-title label { display:inline-block; width:120px; margin-left:5px; }
+
+.card-title input { display:inline-block; }
